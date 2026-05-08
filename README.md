@@ -6,13 +6,13 @@
 │   └── producto.py         # Clases de Productos (carpeta models con las clases de Python)
 └── templates/ 
     └── index.html          # Vista web principal (carpeta templates con el HTML)
-└── venv # Entorno virtual 
+└── venv                    # Entorno virtual 
 El servidor (app.py)
 Usé Flask para crear el servidor. 
 Para pasar los productos al HTML usé render_template, que es el sistema de
 plantillas de Flask llamado Jinja2.
 La documentación Swagger está disponible en `/swagger`
-Usé flask-restx para generar automáticamente la documentación de la API. 
+ 
 METODO MANUAL:
 - Agregar productos al carrito
 - Eliminar productos del carrito
